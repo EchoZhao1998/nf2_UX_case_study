@@ -6,6 +6,7 @@
 | 队员 | 张盛璇 | 女 | 1998.11 | 硕士 | 重庆医科大学 儿科学 | 2025.07 | 无 | fanerain@yeah.net | 17885704780 |
 
 
+
 # 团队优势 (Only Echo here)
 I am a strategic and structured problem solver with experience leading multidisciplinary projects across accessibility, employer branding, and product design. My background in data science enables me to translate complex information into clear insights, while my strengths in research synthesis, visual communication, and user-centred design help transform ideas into practical, impactful solutions. I also enjoy using evidence-based storytelling to communicate complex issues and raise awareness of accessibility and the experiences of underrepresented communities. I enjoy connecting insights from diverse perspectives and delivering high-quality, well-organized outcomes.
 
