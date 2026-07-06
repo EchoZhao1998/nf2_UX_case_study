@@ -28,16 +28,27 @@ The PwC submission due 7/10 is **an application, not a commitment** — selectio
 
 Doesn't require hedging most of the work: the core problem/research/design content is identical either way. What forks is (a) the "Role" / team-attribution framing in the write-up (see `3_Case_Study_Skeleton.md` §1 — First Derm case study pattern), and (b) whether the "AI-native ingestion" scope expansion (item 7 above) ships at all — that one may be PwC-track-only ambition that doesn't carry over to the 2-person build.
 
-## File map
+## File map (restructured 2026-07-06 — numbered by case-study phase)
 
-- `00_..._raw_motivition.md` — original feature brainstorm (superseded; archive reference).
-- `0_Propasal.md` — needs rewrite to strip Aegis/ESG branding.
-- `1_Research_&_Execution_Plan.md` — 5-week plan (June 25–Aug 1). Current.
-- `2_Survey_0627.md` — survey EN + CN. Needs fixes (see Open #1, #2).
-- `3_Case_Study_Skeleton.md` — the case-study scaffold. Current spine.
-- `Case_study_story_tracker.md` — milestone reflection log (interview stories).
-- `Notion_Workspace_Blueprint.md` — how to structure the shared Notion with Xuan.
-- `HANDOVER.md` — this file.
+- `README.md` — project one-liner + folder map. Point newcomers here.
+- `HANDOVER.md` — this file. Stays at root.
+- `01_planning/`
+  - `0_Propasal.md` — rewritten 6/28 (Aegis/ESG stripped). Current.
+  - `1_Research_&_Execution_Plan.md` — 5-week plan (June 25–Aug 1). Current.
+  - `3_Case_Study_Skeleton.md` — the case-study scaffold. Current spine.
+- `02_research/`
+  - `2_Survey_0627.md` — survey EN + CN working draft.
+  - `2_Survey_0627_PUBLISH.md` — published version (launched 6/29 via WeChat).
+  - `Interview_Emotional_Probes.md` — interview probe bank.
+- `03_analysis/` (was `DataAnalysis/`)
+  - `data/NF2_Survey_Data.xlsx` — survey export, n=38 as of 7/5. Contains PII (IPs, Q11 contacts) — never publish raw.
+  - `notebook/01_survey_analysis.ipynb` — full survey report (built 7/6, runs end-to-end; drops PII in step 2).
+  - `figures/` — fig1–fig4 exported charts. `reports/survey_summary.csv` — auto-computed headline numbers.
+- `04_design/` — empty; Figma exports land here.
+- `collab/` — `Notion_Workspace_Blueprint.md`, `Reflection_tracker.md` (ex `Case_study_story_tracker.md`), PwC 申报书 docx.
+- `archive/` — `00_..._raw_motivition.md` (superseded brainstorm).
+
+Note (7/6, confirmed by Echo): the uncommitted deletions (`PwC_Application_Draft_0701.md`, `Echo_advantage.md`, `Feishu-用户旅程（草稿）.md`, `OutreachEmail0629.md`, `3_Post_Copy_0629.md`, old `Survey/` data, PwC pdf/jpg) are **intentional** — pruned for file sanity. `Case_study_story_tracker.md` → `Reflection_tracker.md` was a deliberate rename. All recoverable from git history if ever needed.
 
 ## Collaboration setup
 
