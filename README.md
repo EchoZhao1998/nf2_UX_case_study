@@ -11,6 +11,7 @@ Google UX Certificate portfolio project. Read `HANDOVER.md` first for current st
 | `02_research/` | Survey (draft + published) and interview probes |
 | `03_analysis/` | Survey data (`data/`), analysis notebook (`notebook/`), exported charts (`figures/`), summary tables (`reports/`) |
 | `04_design/` | Figma exports and design artifacts (fills up from mid-July) |
+| `05_outreach/` | Public-facing artifacts: LinkedIn research-snapshot carousel + post drafts |
 | `collab/` | Notion blueprint, reflection tracker, PwC application docx |
 | `archive/` | Superseded early drafts |
 

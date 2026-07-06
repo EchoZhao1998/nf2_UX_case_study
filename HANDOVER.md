@@ -46,7 +46,9 @@ Doesn't require hedging most of the work: the core problem/research/design conte
   - `data/NF2_Survey_Data.xlsx` — survey export, n=38 as of 7/5. Contains PII (IPs, Q11 contacts) — never publish raw.
   - `notebook/01_survey_analysis.ipynb` — full survey report (built 7/6, runs end-to-end; drops PII in step 2).
   - `figures/` — fig1–fig4 exported charts. `reports/survey_summary.csv` — auto-computed headline numbers.
+  - `reports/Survey_Findings_Report_0706.md` — **the shareable findings report** (prose, no code; feeds case study §3). Notebook = how, report = what.
 - `04_design/` — empty; Figma exports land here.
+- `05_outreach/` (added 7/6) — `NF2_Research_Snapshot_LinkedIn_0706.pdf` (5-slide EN carousel, mid-way public snapshot), `linkedin_post_draft.md` (post text + reuse notes), `carousel_src.html` (editable source; regenerate via weasyprint).
 - `collab/` — `Notion_Workspace_Blueprint.md`, `Reflection_tracker.md` (ex `Case_study_story_tracker.md`), PwC 申报书 docx (empty template) + final submitted PDF (`包容未来实验室项目申报书-MediPort...pdf`, added 7/6).
 - `archive/` — `00_..._raw_motivition.md` (superseded brainstorm).
 
