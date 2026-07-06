@@ -60,3 +60,57 @@ Hit my n=30 goal in one day.
 ---
 
 *(Add M03+ as you hit milestones: survey reconciled, first interview done, affinity map, first wireframe, usability test, etc.)*
+
+
+# Problem Discovery
+
+## Where it started
+
+This project did not begin with an idea for an app.
+
+It began with uncertainty.
+
+As someone living with Neurofibromatosis Type 2 (NF2), I experienced a noticeable decline in my vision. Like many patients with a rare disease, my first reaction was to understand **why**. I searched medical literature, clinical guidelines, and case reports, hoping to find answers that could explain my symptoms or help me prepare for future treatment decisions.
+
+The more I read, the more I realised that valuable information was scattered across academic papers, patient forums, hospital websites, and social media discussions. Understanding my own condition required significant time and effort, and much of that effort was spent searching for, organising, and interpreting information rather than making decisions.
+
+At first, I simply wanted to reduce this repeated effort. My initial idea was to create a WeChat Official Account that translated important NF2 research into plain Chinese so that other patients would not need to repeat the same literature review.
+
+However, while participating in several NF2 WeChat communities, I began noticing something unexpected.
+
+---
+
+## From a personal experience to a broader problem
+
+Most discussions in the community were not about reading research papers.
+
+Instead, patients and caregivers repeatedly asked practical questions such as:
+
+- Which hospital has the most experience treating NF2?
+- Has anyone tried this new medication?
+- How should I prepare for surgery?
+- What should I do if a new symptom appears?
+
+These conversations revealed an important insight.
+
+Patients were not necessarily looking for more information. They were looking for **trusted interpretation** and **practical guidance**.
+
+At the same time, I observed another recurring challenge. Many community members struggled to organise years of MRI reports, surgical records, audiograms, and consultation notes when seeking opinions from new specialists. Information was fragmented across paper reports, CDs, chat histories, and different hospital systems.
+
+This suggested that the problem extended beyond knowledge accessibility. Long-term disease management itself lacked continuity.
+
+---
+
+## Why UX?
+
+Around the same period, I completed Google's UX Design Professional Certificate, where I learned to approach problems through user research rather than assumptions.
+
+Instead of continuing with the idea of building a knowledge-sharing platform, I began asking a different question:
+
+> What if the real challenge is not accessing information, but managing an entire healthcare journey?
+
+This shifted the project from content creation to service design.
+
+When the PwC x Monash TeamWork Program provided an opportunity to work on an industry-supported project, I invited a small team to explore this question using a human-centred design process. What started as a personal motivation evolved into a UX case study grounded in user research, aiming to design a concept that supports continuity of care for people living with NF2.
+
+The concept was eventually named **MediPort**—a combination of *Medical* and *Passport*. Just as a passport carries a person's identity across borders, MediPort is envisioned as a portable, trusted record that carries a patient's medical journey across hospitals, specialists, and healthcare systems.
