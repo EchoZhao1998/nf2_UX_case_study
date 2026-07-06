@@ -6,7 +6,7 @@
 
 ## Working title
 
-**Assembling a life: a unified disease timeline for NF2 patients managing care across hospitals and borders.**
+**Mediport: a unified disease timeline for NF2 patients managing care across hospitals and borders.**
 
 *(No product brand. A case study is named for the problem it solves, not a codename.)*
 
