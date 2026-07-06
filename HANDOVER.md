@@ -23,8 +23,10 @@
 ## Outcome fork (2026-07-02) — track this, don't forget it exists
 
 The PwC submission due 7/10 is **an application, not a commitment** — selection results land by **7/17** (per the program's own timeline). Two branches:
-- **Selected:** 4-person group project ships (Echo + 孙亦然 + 张盛璇 + 王宠), 7/20–8/30.
-- **Not selected:** reverts to the original plan — Team of 2 (Echo + Xuan), Google UX cert case study, as already scoped in `3_Case_Study_Skeleton.md`.
+- **Selected:** 3-person group project ships (**CareLink Lab**: Echo/赵婉婷 lead + 孙亦然 + 张盛璇 — final submitted roster, 王宠 dropped off; category: 无障碍环境建设方案; product name **MediPort**; final PDF in `collab/`), 7/20–8/30.
+- **Not selected:** reverts to the original plan — Team of 2 (Echo + Xuan), Google UX cert case study, as already scoped in `01_planning/3_Case_Study_Skeleton.md`.
+
+**Update 2026-07-06:** planning docs aligned to the final application, with the solo/2-person build as base case. Decisions: (a) product name **MediPort** adopted everywhere; (b) **AI-ingestion lock reconfirmed** for the cert-track build — stays roadmap-only, core-innovation status is PwC-track-only (this closes Open #7's remaining question); (c) proposal now cites final n=38 survey numbers from `03_analysis/` instead of the n=30 interim stats; (d) execution plan realigned — survey phase done, interviews 7/6–7/15, new end date Aug 8.
 
 Doesn't require hedging most of the work: the core problem/research/design content is identical either way. What forks is (a) the "Role" / team-attribution framing in the write-up (see `3_Case_Study_Skeleton.md` §1 — First Derm case study pattern), and (b) whether the "AI-native ingestion" scope expansion (item 7 above) ships at all — that one may be PwC-track-only ambition that doesn't carry over to the 2-person build.
 
@@ -45,7 +47,7 @@ Doesn't require hedging most of the work: the core problem/research/design conte
   - `notebook/01_survey_analysis.ipynb` — full survey report (built 7/6, runs end-to-end; drops PII in step 2).
   - `figures/` — fig1–fig4 exported charts. `reports/survey_summary.csv` — auto-computed headline numbers.
 - `04_design/` — empty; Figma exports land here.
-- `collab/` — `Notion_Workspace_Blueprint.md`, `Reflection_tracker.md` (ex `Case_study_story_tracker.md`), PwC 申报书 docx.
+- `collab/` — `Notion_Workspace_Blueprint.md`, `Reflection_tracker.md` (ex `Case_study_story_tracker.md`), PwC 申报书 docx (empty template) + final submitted PDF (`包容未来实验室项目申报书-MediPort...pdf`, added 7/6).
 - `archive/` — `00_..._raw_motivition.md` (superseded brainstorm).
 
 Note (7/6, confirmed by Echo): the uncommitted deletions (`PwC_Application_Draft_0701.md`, `Echo_advantage.md`, `Feishu-用户旅程（草稿）.md`, `OutreachEmail0629.md`, `3_Post_Copy_0629.md`, old `Survey/` data, PwC pdf/jpg) are **intentional** — pruned for file sanity. `Case_study_story_tracker.md` → `Reflection_tracker.md` was a deliberate rename. All recoverable from git history if ever needed.

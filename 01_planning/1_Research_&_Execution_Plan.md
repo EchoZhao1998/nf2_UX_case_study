@@ -1,71 +1,65 @@
-# **📋 Research & Execution Plan (Proposed)**
+# **📋 Research & Execution Plan**
 
-*Timeline: June 25 – August 1 (5 weeks)*
+*Original timeline: June 25 – August 1 (5 weeks). Realigned **2026-07-06**: survey phase finished early and over target (n=38 vs. planned 20–30); interviews have not started yet, so fieldwork extends one week. New end date: **August 8**.*
 
-> **UX Phases:** Empathize (Weeks 1–2) → Define (Week 3) → Ideate & prototype (Week 4) → Test (Week 5)
-> 
-
----
-
-### **Week 1: Secondary Research & Competitive Audit (June 26 – July 1)**
-
-*Goal: Understand the landscape before speaking with users.*
-
-| **Step** | **Action Item** | **Deliverable / What to Save** |
-| --- | --- | --- |
-| **1.1** | Desk Research: Read 5-8 articles/papers on NF2 epidemiology and daily patient challenges. | Summary of top 3 medical/emotional challenges. |
-| **1.2** | Competitive UX Audit: Download PatientsLikeMe, MyChart,  Test them for 15 mins each. | A grid comparing their features, pros, and cons. |
-| **1.3** | Draft Interview Guide: Write 10 open-ended questions (focusing on *behaviors*, not medical history). | Save this in my "Interview Template" page. |
-| **1.4** | Create Survey: Build a 5-min *Wenjuanxing/Google Form* for screening participants. | Save the survey link. |
+> **UX Phases:** Empathize (✅ + interviews) → Define → Ideate & prototype → Test
+> **Base case:** solo build (Echo) with clinical review (Xuan). If the PwC team track is selected (result ~7/17), dates for Weeks 3–5 may shift to the program's 7/20–8/30 window — content stays the same, see `HANDOVER.md`.
 
 ---
 
-### **Week 2: Fieldwork – Recruitment & Interviews (July 2 – July 8)**
+### **Week 1: Secondary Research & Competitive Audit (June 26 – July 1) — ✅ DONE**
 
-*Goal: Collect raw qualitative data. This populates Database A.*
-
-| **Step** | **Action Item** | **Deliverable / What to Save** |
+| **Step** | **Action Item** | **Status** |
 | --- | --- | --- |
-| **2.1** | Reach out to 泡泡家园 (WeChat) and NF2 Crew (Reddit/Facebook). Send them your survey and interview request. | Screenshots of outreach messages. |
-| **2.2** | Conduct **5–8 Chinese patient/caregiver interviews** (30 mins each, via WeChat voice). | Record bullet-point notes for each participant in Database A. |
-| **2.3** | Conduct **2–3 Overseas patient interviews** (via Zoom/WhatsApp). | Record bullet-point notes for each participant in Database A. |
-| **2.4** | Collect 20–30 survey responses. | Export raw survey data to a CSV/Sheet. |
+| **1.1** | Desk research: NF2 epidemiology + daily patient challenges. | ✅ |
+| **1.2** | Competitive UX audit: PatientsLikeMe, MyChart. | ✅ |
+| **1.3** | Draft interview guide (behavior-focused, 10 open questions). | ✅ see `02_research/Interview_Emotional_Probes.md` |
+| **1.4** | Build screening survey (问卷星). | ✅ published 6/29 — `02_research/2_Survey_0627_PUBLISH.md` |
+
+### **Survey (June 29 – July 5) — ✅ DONE, over target**
+
+| **Step** | **Action Item** | **Status** |
+| --- | --- | --- |
+| **S.1** | Distribute via 泡泡家园 WeChat community. | ✅ final **n=38** (target was 20–30) |
+| **S.2** | Analyze results. | ✅ 7/6 — full report: `03_analysis/notebook/01_survey_analysis.ipynb`; charts in `03_analysis/figures/`; headline numbers in `03_analysis/reports/survey_summary.csv` |
+| **S.3** | Interview volunteer pool. | ✅ **30 respondents** left real contact info (Q11) |
 
 ---
 
-### **Week 3: Synthesis – Finding the Patterns (July 9 – July 15)**
+### **Week 2 (revised): Interviews (July 6 – July 15)**
 
-*Goal: Turn messy notes into clear insights. This is the “Define” phase.*
-
-| **Step** | **Action Item** | **Deliverable / What to Save** |
-| --- | --- | --- |
-| **3.1** | **Affinity Mapping**: Group all interview quotes by theme (e.g., "Fear of MRI results," "Forgot to ask doctor"). | Populate **Database B (Insights)** with these groups. |
-| **3.2** | Create **1 Primary User Persona**: Give them a name, face, goals, and frustrations (based on your real data). | Save as a visual (can be a Figma board or Notion image). |
-| **3.3** | Map the **User Journey**: Plot the emotional highs/lows of a specific scenario (e.g., "The 2 days before a check-up"). | Draw a timeline graph (highs/lows). |
-| **3.4** | Refine the Problem Statement: Update your North Star to be *ultra-specific* (e.g., change to *"Li Wei needs a way to visualize his MRI timeline because he forgets what his doctor said 5 minutes after leaving the room"*). | Update the top of this page. |
-
----
-
-### **Week 4: Ideation – Sketching the App/Service (July 16 – July 22)**
-
-*Goal: Translate insights into tangible design concepts.*
+*Goal: qualitative depth. Recruit 5–8 from the 30 Q11 volunteers.*
 
 | **Step** | **Action Item** | **Deliverable / What to Save** |
 | --- | --- | --- |
-| **4.1** | **"How Might We" (HMW)**: Write 5 HMW statements based on Database B insights (e.g., *"HMW remind Li Wei to log symptoms without feeling anxious?"*). | List of 5 HMWs. |
-| **4.2** | **Crazy Eights**: Sketch 8 rough app screens in 8 minutes (on paper). | Take a photo of the paper sketches. |
-| **4.3** | Pick the **1 best feature** (e.g., the Symptom Timeline) and sketch a **User Flow** (how to get from A to B). | Save the flowchart. |
-| **4.4** | Build **Low-Fidelity Wireframes** (in Figma or on paper) for the 5 core screens (Home, Log Symptom, View Records, Connect, Profile). | Export screenshots to **Database D (Artifacts)**. |
+| **2.1** | Send interview invitations to shortlisted volunteers (WeChat). | Outreach messages + response tracker. |
+| **2.2** | Conduct **5–8 patient/caregiver interviews** (30 min, text/voice per participant's accessibility needs). | Bullet-point notes per participant (Database A). |
+| **2.3** | **Core probe:** the Q7-vs-Q10 tension — ask about *actual past behavior* with translated research content (when did you last read it? what did you do with it?), not hypothetical preference. Tests the "collect it, might need it someday" hypothesis (`HANDOVER.md` Open #3). | Explicit evidence for/against the research-library demand. |
+| **2.4** | (Stretch) 1–2 overseas patient interviews via NF2 Crew (Reddit/Facebook). | Notes in Database A. |
 
----
-
-### **Week 5: Validation & Portfolio Polish (July 23 – August 1)**
-
-*Goal: Validate the design and package it clearly for your portfolio.*
+### **Week 3: Synthesis — Define (July 16 – July 22)**
 
 | **Step** | **Action Item** | **Deliverable / What to Save** |
 | --- | --- | --- |
-| **5.1** | **Guerrilla Usability Testing**: Show your wireframes to the **same 2–3 patients** you interviewed. Ask: *"Point to where you would tap to log a headache. Is this clear?"* | Record their feedback (what they liked/struggled with). |
-| **5.2** | **Iterate**: Make 3–5 small tweaks to your wireframes based on their feedback. | Save the "Version 2" of your wireframes. |
-| **5.3** | **Write the Case Study**: Structure it: *Background → Research Method → Persona/Journey → Sketches → Wireframes → Learnings.* | Paste this into your `📁 Portfolio Write-Up` sub-page. |
-| **5.4** | **Final Polish**: Proofread, add alt-text to images, and organize the Notion page for the Google evaluator to read easily. | Link all databases (A, B, C, D) at the top for easy navigationIcon draft |
+| **3.1** | Affinity-map interview quotes by theme. | Database B (Insights). |
+| **3.2** | 1 primary persona (goals, frustrations, accessibility profile from survey Q5: 76% hearing loss, plus vision/motor/balance shares). | Persona visual. |
+| **3.3** | User journey map — one scenario (e.g., "the 2 days before a check-up"). | Emotional highs/lows timeline. |
+| **3.4** | Refine North Star into an ultra-specific persona statement. | Update `3_Case_Study_Skeleton.md` §2. |
+
+### **Week 4: Ideation & Wireframes (July 23 – July 29)**
+
+| **Step** | **Action Item** | **Deliverable / What to Save** |
+| --- | --- | --- |
+| **4.1** | 5 "How Might We" statements from Database B. | HMW list. |
+| **4.2** | Crazy Eights sketches. | Photos of sketches. |
+| **4.3** | User flow for the hero path: Log Event → Timeline → Generate Summary. | Flowchart. |
+| **4.4** | Low-fi wireframes for the **5 locked screens: Home · Log Event · Timeline · Generate Summary · Summary view**. AI ingestion stays roadmap-only (locked — see skeleton). | Figma exports → `04_design/`. |
+
+### **Week 5: Validation & Portfolio Polish (July 30 – August 8)**
+
+| **Step** | **Action Item** | **Deliverable / What to Save** |
+| --- | --- | --- |
+| **5.1** | Guerrilla usability test with 2–3 original interviewees ("point to where you'd log a headache"). | Feedback notes. |
+| **5.2** | Iterate: 3–5 tweaks, saved as before/after. | Wireframes v2. |
+| **5.3** | Write the case study into `3_Case_Study_Skeleton.md`'s structure. | Portfolio write-up (EN; CN version per bilingual-by-default rule). |
+| **5.4** | Final polish: proofread, alt-text on all images, link Databases A–D. | Evaluator-ready page. |

@@ -1,6 +1,8 @@
-# NF2 Case Study — Skeleton & Build Guide
+# MediPort — NF2 Case Study — Skeleton & Build Guide
 
-*The scaffold the next 5 weeks fills in. Each section says what goes here, what evidence proves it, and which weekly deliverable feeds it. Write the case study into THIS structure as you go — don't synthesize from scratch at the end.*
+*The scaffold the coming weeks fill in. Each section says what goes here, what evidence proves it, and which weekly deliverable feeds it. Write the case study into THIS structure as you go — don't synthesize from scratch at the end.*
+
+*Product name: **MediPort** (adopted 2026-07-06, same name as the PwC application). Use it consistently in the write-up.*
 
 ---
 
@@ -8,7 +10,7 @@
 
 - **One flow:** Unified Disease Timeline → Doctor-Ready 1-page Summary as its payoff screen.
 - **Five core screens:** Home · Log Event · Timeline · Generate Summary · Summary view.
-- **AI MRI parser:** mentioned as a *future ambition* in the reflection only. Not a designed screen. Reason: evaluators can't see UX credit in invisible AI, and you can't validate parsing without real data.
+- **AI ingestion ("随手收集，智能整理" / collect-first-organize-later):** mentioned as a *future ambition* in the reflection and roadmap only. Not a designed screen. Reason: evaluators can't see UX credit in invisible AI, and you can't validate parsing without real data. (Reconfirmed 2026-07-06 for the solo/2-person build. The PwC application pitches it as core innovation — if that track is selected, scope is renegotiated there, not here.)
 - **Cut from this case study:** mental-state logging product, research library, sign-language module. They may appear as one line in "what I left out and why" — proof of disciplined scoping, which evaluators reward.
 - **Xuan's role:** clinical sanity-check and a named stakeholder quote. NOT co-owner of the survey. Her PhD QoL work is a separate instrument.
 
@@ -32,7 +34,7 @@ One sentence on the problem, one on the solution, one hero image (the final Summ
 
 - The setting: rare disease, fragmented cross-border care, patient as lifetime record-keeper. **Plain language — no "Project Aegis," no ESG, no "Principal Investigator" branding.**
 - Your role: end-to-end UX (research → synthesis → IA → wireframes → test). **Base case: Team of 2 (Echo + Xuan)** — this is what ships if the PwC proposal isn't selected (result by 7/17, see `HANDOVER.md`).
-- **Team-size fork — resolved by pattern, not by rewriting this skeleton:** if PwC selects the 4-person proposal instead, keep this exact structure and section order. Reference: [First Derm case study, Shu Jiang](https://www.shujdesign.com/firstderm) — a designer on a larger team writes a short "Role: Lead Product Designer" line + "I worked with a team of product designers and researchers," then uses "I" throughout for what she personally owned (e.g., "I joined the team working on landing and uploading photos," "I facilitated...") and "we" for team-level decisions. Do the same: one "Role:" line up top, "I" for your specific ownership, "we" for the group's calls. Content doesn't change, just the attribution voice.
+- **Team-size fork — resolved by pattern, not by rewriting this skeleton:** if PwC selects the team proposal instead (**CareLink Lab, 3 people:** Echo/赵婉婷 lead + 孙亦然 accessibility review + 张盛璇 medical content — final submitted roster; 王宠 is no longer on the team), keep this exact structure and section order. Reference: [First Derm case study, Shu Jiang](https://www.shujdesign.com/firstderm) — a designer on a larger team writes a short "Role: Lead Product Designer" line + "I worked with a team of product designers and researchers," then uses "I" throughout for what she personally owned (e.g., "I joined the team working on landing and uploading photos," "I facilitated...") and "we" for team-level decisions. Do the same: one "Role:" line up top, "I" for your specific ownership, "we" for the group's calls. Content doesn't change, just the attribution voice.
 - Constraints made honest: rare-disease = small sample; solo Figma build (or shared team Figma, if the PwC path ships); 5-week timebox. State these — owning constraints reads as senior.
 - Feeds from: this doc + plan dates.
 
@@ -44,8 +46,8 @@ One sentence on the problem, one on the solution, one hero image (the final Summ
 
 ## 3. Research
 
-- **Method:** secondary research (3 challenges from papers), competitive audit (MyChart / PatientsLikeMe — what fails for rare/multi-tumor), survey, interviews. State numbers honestly; never claim significance on small n.
-- **The survey as a thinking artifact:** include the "begin with the end / every question drives a design decision" story and the DeepSeek-vs-critical-mindset anecdote — that's a differentiator. (See `Case_study_story_tracker.md`.)
+- **Method:** secondary research (3 challenges from papers), competitive audit (MyChart / PatientsLikeMe — what fails for rare/multi-tumor), survey (**final n=38**, closed 7/5 — analysis, charts, and headline numbers live in `03_analysis/`; cite from `reports/survey_summary.csv`, don't hand-type stats), interviews. State numbers honestly; never claim significance on small n.
+- **The survey as a thinking artifact:** include the "begin with the end / every question drives a design decision" story and the DeepSeek-vs-critical-mindset anecdote — that's a differentiator. (See `collab/Reflection_tracker.md`, formerly `Case_study_story_tracker.md`.)
 - **Raw quotes:** 5–8 anonymous verbatim quotes. Hiring managers value these over polished charts.
 - Feeds from: Week 1 (1.1–1.4), Week 2 (all).
 
@@ -93,9 +95,3 @@ One sentence on the problem, one on the solution, one hero image (the final Summ
 | 5 | Usability test, iterate, write-up, polish | 6, 7, 0 |
 
 ---
-
-## Open decisions to resolve before Week 2 goes live
-
-1. Reconcile EN vs CN survey (residence options + the caregiver rationale currently contradict each other).
-2. Re-frame survey Q10 as MVP *prioritization*, not feature discovery (it's leading as written).
-3. PwC "包容未来实验室" — go / no-go before committing any hours. (Separate session.)

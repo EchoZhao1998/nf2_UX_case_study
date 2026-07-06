@@ -1,40 +1,31 @@
-# Proposal — NF2 Patient-Led Care: A UX Case Study
+# Proposal — MediPort: NF2 Patient-Led Care, A UX Case Study
 
-*One-flow design project for the Google UX Certificate capstone + job portfolio. Companion plan: `1_Research_&_Execution_Plan.md` (canonical 5-week schedule). Living state: `HANDOVER.md`.*
+*One-flow design project for the Google UX Certificate capstone + job portfolio. Companion plan: `1_Research_&_Execution_Plan.md` (canonical schedule). Living state: `HANDOVER.md`. The same concept was also submitted (as a team application) to the PwC 包容未来实验室 program — this document describes the base case: a solo build with clinical review, independent of that outcome.*
 
 ---
 
-## Working title
+## Section 1: Project Overview
 
-**Mediport: a unified disease timeline for NF2 patients managing care across hospitals and borders.**
+**Project Title:** *MediPort — Assembling a Life: A Patient-Led Disease Timeline & Doctor-Ready Summary for Cross-Hospital Care*
 
-*(No product brand. A case study is named for the problem it solves, not a codename.)*
+**Abstract:**
+This patient-led project addresses communication barriers — rather than merely medical record management — for people living with chronic rare diseases, with an initial focus on Neurofibromatosis Type 2 (NF2). Instead of proposing another standalone healthcare application, MediPort explores an inclusive healthcare communication model that empowers patients to own and communicate their longitudinal medical journey across hospitals. The concept is demonstrated through a high-fidelity UX prototype featuring a patient-owned disease timeline, bilingual doctor-ready consultation summaries, and accessibility-first interaction design; AI-assisted record ingestion ("collect first, organize later") is presented as the product's roadmap ambition, not a designed screen. The prototype illustrates how inclusive information design can reduce communication burdens, improve continuity of care, and support more equitable healthcare experiences.
 
-## The problem
+---
 
-Neurofibromatosis Type 2 (NF2) is a rare genetic condition that causes tumors to grow along nerves, leading to progressive hearing loss, vision changes, and mobility issues. Because care is lifelong and spread across different hospitals — often in different cities or countries — each patient ends up as the only person who holds their whole medical story.
+### Section 2: Project Background
 
-That story lives in scattered places: stacks of printed MRI films, millimeter measurements copied into phone notes, surgical dates remembered imperfectly, drug trials half-tracked. When a patient sees a new specialist, they get roughly ten minutes to reconstruct years of history from memory. Key details get lost, and the patient carries the cognitive and emotional load of being their own medical archive.
+NF2 is a rare genetic disorder requiring lifelong, multidisciplinary management. Due to the absence of specialized medical centers for NF2 in China, patients must frequently navigate various hospitals and departments. This fragmented care delivery creates severe practical hurdles, including scattered medical records, cumbersome and easily lost paper documents or imaging films, redundant data tracking, and exhausting communication barriers.
 
-## What we're designing (locked scope)
+Drawing on lived experience of NF2 and late deafness, combined with data-science training and clinical review support, this project recognizes that these inefficiencies are systemic challenges shared broadly across the chronic rare disease community. Our survey (final **n=38**, closed 2026-07-05; full analysis in `03_analysis/notebook/01_survey_analysis.ipynb`) validated this critical need:
 
-A single, focused flow:
+* **100%** of respondents lacked structured digital tools to manage their medical history (not one of 38 uses a health app or hospital platform).
+* **65.8%** relied on paper documents and imaging films; the remaining **34.2%** kept no system at all, relying on memory or their doctor.
+* **71.1%** reported communication breakdowns when seeing new doctors or seeking cross-hospital consultations — the leading cause (36.8%) being records too scattered to present core progression in a short consult.
+* **76.3%** live with partial or total hearing loss, underscoring an urgent demand for highly readable, visual, and accessible medical information.
 
-> **Log scattered medical events → see them assembled on one visual timeline → export a doctor-ready 1-page summary on demand.**
+The combination of fragmented care pathways and communication barriers creates an information inequality that extends beyond NF2 to many people living with chronic conditions and disabilities. Rather than treating this as only a technical problem, we frame it as an inclusive design challenge. Therefore, this project proposes a patient-centered healthcare communication model, demonstrated through a validated UX concept prototype, showing how patient-owned longitudinal records, visual disease timelines, and accessible consultation summaries can improve continuity of care while reducing cognitive and communication burdens during cross-hospital treatment.
 
-Five core screens: **Home · Log Event · Timeline · Generate Summary · Summary view.**
-
-The Doctor-Ready Summary is the timeline's payoff — the same data, exported for a 60-second hand-off to a new physician (with a bilingual toggle for cross-border care).
-
-**Deliberately out of scope** (and worth stating, as evidence of disciplined design): mental-state tracking, a peer-community hub, a plain-language research library, and a sign-language module. An AI MRI-report parser is named as a *future* direction, not a designed screen — its value can't be shown in a UX prototype, and it can't be validated without real diagnostic data. The "research library" is the one feature held open: survey Q10 will decide whether it earns a place.
-
-## Why it matters
-
-Mainstream patient-portal and health-tracking apps are built for common, single-condition care. They fail the rare-disease, multi-tumor case: fragmented records, cross-border consultations, and a user who is also a long-term data manager. Designing well here sets a high bar for two things that generalize far beyond NF2 — **patient-led record-keeping** and **extreme accessibility**, since the same users frequently live with deafness, low vision, hand tremor, and vestibular issues at once.
-
-## Accessibility as the design spine
-
-Every interface decision is tied to a real constraint surfaced in the survey: large touch targets for hand numbness/tremor, high contrast and scalable type for low vision, no fast motion or parallax for vestibular sensitivity, and caption/visual-first patterns for deafness. Accessibility is not a final pass here; it is the structure.
 
 ## Team & roles
 
