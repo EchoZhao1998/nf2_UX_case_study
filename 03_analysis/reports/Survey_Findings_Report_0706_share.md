@@ -2,7 +2,6 @@
 
 **Author:** Echo Zhao · **Date:** 2026-07-06 · **Status:** internal working report (pre-interview)
 **Data:** n=38, collected 2026-06-29 → 07-05 via 泡泡家园 WeChat community (问卷星)
-**Reproducibility:** every number below is computed in `../notebook/01_survey_analysis.ipynb`; charts in `../figures/`; machine-readable summary in `survey_summary.csv`. This report interprets; the notebook proves.
 
 ---
 
@@ -107,8 +106,8 @@ The evidence converges on one flow: a patient-owned **disease timeline** (organi
 
 ## 8. Limitations
 
-Sample size (n=38) supports directional conclusions only; no significance testing is appropriate or attempted. Recruitment through one WeChat community underrepresents patients outside community networks — plausibly the most isolated ones. Roughly half of responses are caregiver proxies, which may distort self-reported accessibility needs in either direction. Q10's forced top-2 format measures salience, not value, which is exactly why Section 6 cross-reads it against behav`ior. Eight respondents skipped Q10 entirely.
+Sample size (n=38) supports directional conclusions only; no significance testing is appropriate or attempted. Recruitment through one WeChat community underrepresents patients outside community networks — plausibly the most isolated ones. Roughly half of responses are caregiver proxies, which may distort self-reported accessibility needs in either direction. Q10's forced top-2 format measures salience, not value, which is exactly why Section 6 cross-reads it against behavior. Eight respondents skipped Q10 entirely.
 
 ## 9. Next steps
 
-Five to eight in-depth interviews recruited from the 30 volunteers (79% of the sample left contact details — itself a signal of community trust and unmet need). Core probe: past *actual* behavior with translated research content, to confirm or kill the collect-it-might-need-it hypothesis before it silently shapes the product. Findings feed the persona, journey map, and design phase per `../../01_planning/1_Research_&_Execution_Plan.md`.
+Five to eight in-depth interviews recruited from the 30 volunteers (79% of the sample left contact details — itself a signal of community trust and unmet need). Core probe: past *actual* behavior with translated research content, to confirm or kill the collect-it-might-need-it hypothesis before it silently shapes the product. Findings feed the persona, journey map, and design phase.
