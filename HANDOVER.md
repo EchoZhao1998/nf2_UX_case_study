@@ -44,6 +44,10 @@ Doesn't require hedging most of the work: the core problem/research/design conte
   - `Interview_Emotional_Probes.md` — interview probe bank.
 - `03_analysis/` (was `DataAnalysis/`)
   - `data/NF2_Survey_Data.xlsx` — survey export, n=38 as of 7/5. Contains PII (IPs, Q11 contacts) — never publish raw.
+  - `data/访谈回答（原始）.pdf` — raw text-interview answers (#12, #20, #14, #38). PII: hospitals/doctors/ages — never publish.
+  - `data/Interview_Transcripts_EN_0710.md` — full English translation of the 4 interviews (7/10). Internal only until anonymized.
+  - `reports/Interview_Findings_Report_0710.md` — critical findings from interviews (7/10); feeds case study §3. CN version pending.
+  - `reports/Personas_0710.md` — 2 primary personas (记录管家/慧兰 caregiver-proxy, 自航者/林悦 young deaf patient) + anti-persona (老周 veteran skeptic), with teaching notes. CN version pending.
   - `notebook/01_survey_analysis.ipynb` — full survey report (built 7/6, runs end-to-end; drops PII in step 2).
   - `figures/` — fig1–fig4 exported charts. `reports/survey_summary.csv` — auto-computed headline numbers.
   - `reports/Survey_Findings_Report_0706.md` — **the shareable findings report** (prose, no code; feeds case study §3). Notebook = how, report = what.
@@ -70,6 +74,18 @@ Note (7/6, confirmed by Echo): the uncommitted deletions (`PwC_Application_Draft
 5. ~~Rewrite `0_Propasal.md`~~ ✅ 2026-06-28 (Aegis/ESG stripped, aligned to locked scope, cross-refs the plan). **Foundation phase complete.**
 6. ~~Tag Xuan's exploratory questions~~ ✅ 2026-06-28 (Q4/Q8/Q9 tagged "Shared exploratory", leads flipped UX-first). **Survey now launch-ready.**
 
+## Interview round 1 analyzed (2026-07-10) — key state
+
+4 of the planned 5–8 interviews done and analyzed (#12 caregiver-mother, #20 new patient, #14 caregiver-father, #38 veteran patient; #15 and #27 from the emphasis list still pending). Headline findings (full argument in `reports/Interview_Findings_Report_0710.md`):
+
+- **Proxy-distance beats disease-duration** as the pain axis: patients retrieve history from memory (1 sec – 2 min); caregivers can't (4–5 min – unbounded). Action: re-cut survey n=38 by role to confirm.
+- **Summary demand confirmed but conditional:** 2/4 will personally audit early outputs; #20's kill-switch = date/trend-reversal errors → misdiagnosis → permanent abandonment. Design mandates before Figma: provenance links on every summary number + explicit verbatim/paraphrase choice.
+- **Trend chart endangered:** #20 (a supporter) unprompted: cross-machine MRI variance + hearing-test confounds make naive mm-trend lines clinically misleading; doctors judge by compression, not size. Chart must show measurement context/uncertainty or restrict to same-source comparisons.
+- **Real incumbents:** deliberate paper (album slower than sorted bag — 2/4), 云胶片 QR codes, and raw LLMs (#20 asked Doubao in hour one; #38: "shell on an LLM", predicts medical AI kills wrappers, cites 音书 vs AI captions). Case study must answer #38 head-on.
+- **Consult communication is the deeper accessibility gap:** all 4 route doctor-talk through a hearing family member; #20 can't hear the doctor's document requests; #38 "doctors are unwilling to communicate with me directly." Reframe Summary as a consult-accessibility device, not just a time-saver.
+- **Safety flag (do not surface naively in product):** group-recommended OTC meds for a child (#12); self-managed off-label brigatinib 90mg/day with no imaging follow-up (#14). Medication/community features need an unverified-info boundary — candidate "left out and why" section.
+- **Open #3 rationale amended (7/10):** D1 recall test *passed* 3/4 — literature demand is real consumption of actionable treatment intel (indications, trials, plain-language digests), not hoarding. Library stays cut for scope, but the recorded "squirrel" reasoning is superseded; roadmap-name it as trial-radar/plain-language digests.
+
 ## Decision log
 
 | Date | Decision | Why |
@@ -78,3 +94,5 @@ Note (7/6, confirmed by Echo): the uncommitted deletions (`PwC_Application_Draft
 | 2026-06-28 | Demoted AI parser to future mention | Invisible AI = no visible UX credit; unvalidatable |
 | 2026-06-28 | Survey stays UX instrument; Xuan gets story + pilot framing | Avoid diluting design signal while still serving her |
 | 2026-06-28 | Research library = data-gated on Q10 | Let evidence, not assumption, decide |
+| 2026-07-10 | Personas segmented on proxy-distance, not demographics; 2 primary + 1 anti-persona | Interview evidence: role (patient vs proxy) is what changes design decisions |
+| 2026-07-10 | Summary requires provenance links + verbatim/paraphrase toggle before Figma | #12/#20 trust model: users audit early outputs; paraphrase errors = abandonment |
