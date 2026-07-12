@@ -96,3 +96,5 @@ Note (7/6, confirmed by Echo): the uncommitted deletions (`PwC_Application_Draft
 | 2026-06-28 | Research library = data-gated on Q10 | Let evidence, not assumption, decide |
 | 2026-07-10 | Personas segmented on proxy-distance, not demographics; 2 primary + 1 anti-persona | Interview evidence: role (patient vs proxy) is what changes design decisions |
 | 2026-07-10 | Summary requires provenance links + verbatim/paraphrase toggle before Figma | #12/#20 trust model: users audit early outputs; paraphrase errors = abandonment |
+| 2026-07-12 | Interviews #15/#27 closed as unreachable (invalid contacts); n=4 final | Persona confidence caveats now permanent; compensate via survey role re-cut + usability tests |
+| 2026-07-12 | Define stage drafted: `03_analysis/reports/Problem_Statements_0712.md` (EN/CN problem + hypothesis + goal statements, 2 personas; 老周 = constraints only) | Bridges personas → design; 林悦 consult-mode tension logged, not resolved — decide after 7/17 fork |
