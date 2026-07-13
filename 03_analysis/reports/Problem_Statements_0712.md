@@ -18,10 +18,10 @@ Rule: if a later screen decision can't be traced back to one of these, the decis
 ## 1. 陈慧兰 "The Record Keeper" (caregiver-proxy, PRIMARY)
 
 **Problem statement (EN):**
-陈慧兰 is a caregiver-mother managing her deaf teenager's NF2 history across a split household archive, who needs to retrieve and present the tumor progression in seconds, because retrieval today takes 4–5 minutes (unbounded when her husband is away) and an 8-minute consult cannot absorb a pile of paper.
+陈慧兰 is a caregiver managing a complex NF2 history across fragmented records from multiple hospitals and a shared household archive. She needs to reconstruct and communicate her child's disease progression within a few minutes, because specialist consultations are short, records are scattered across people and institutions, and critical information can easily be missed under time pressure.
 
 **问题陈述 (CN):**
-陈慧兰是一位照护者母亲，与丈夫分工管理失聪孩子的 NF2 病历（她跑医院，他管档案）。她需要在几秒内调出并呈现肿瘤变化的全过程，因为目前翻找对比需要 4–5 分钟（丈夫不在家时甚至无从查起），而 8 分钟的门诊根本无法消化一整袋纸质资料。
+陈慧兰是一位照护者，需要在多个医院、家庭成员分散保管的病历之间重建并清晰讲述孩子的 NF2 病程。她需要在极短的门诊时间内快速组织并呈现关键病情，因为病历分散、信息难以串联，而有限的问诊时间很容易遗漏重要细节。
 
 **Hypothesis (EN):** If 慧兰 can capture records camera-first and generate a one-page summary where every number links to its source document, then she can answer "how did the tumor change?" in seconds — independent of who holds the household archive.
 
@@ -38,11 +38,11 @@ Rule: if a later screen decision can't be traced back to one of these, the decis
 ## 2. 林悦 "The Self-Navigator" (deaf patient, PRIMARY)
 
 **Problem statement (EN):**
-林悦 is a recently-deafened young patient who owns her own cross-city care, who needs to answer a doctor's document requests instantly and independently, because she cannot hear the requests, speech-to-text lags and mis-transcribes, and routing through her parents costs her both accuracy and ownership of her own case.
+林悦 is a recently deafened young adult managing her own long-term NF2 care across different hospitals. She needs to communicate her medical history and respond confidently during specialist consultations without relying on hearing or family members, because communication barriers, fragmented records, and severe time constraints reduce both the efficiency of consultations and her sense of ownership over her own healthcare.
 
 **问题陈述 (CN):**
-林悦是一位新近失聪的年轻患者，独自跨城市管理自己的病程。她需要即时、独立地回应医生"要哪份资料"的要求，因为她听不清医生的话，语音转文字延迟且有误差，而经由父母转述既损失准确性，也让她失去对自己病情的主导权。
-
+林悦是一位新近失聪、独立管理自己 NF2 病程的年轻患者。她希望在不依赖听力或家人转述的情况下，与医生高效沟通自己的病史并回应诊疗需求，因为沟通障碍、分散的病历以及有限的门诊时间共同削弱了问诊效率，也削弱了她对自身医疗决策的主导权。
+  s
 **Hypothesis (EN):** If the record itself can answer the doctor — timeline on screen, every claim tappable to its source film — then consult communication no longer depends on hearing or on a relay person.
 
 **假设陈述 (CN):** 如果病历本身能"回答"医生——时间线直接展示在屏幕上，每条结论都可点开对应原始胶片——那么医患沟通将不再依赖听力，也不再依赖转述人。
@@ -70,4 +70,4 @@ Rule: if a later screen decision can't be traced back to one of these, the decis
 
 ## Next in the process
 
-Journey-map 慧兰's review-day and 林悦's new-hospital scenarios → How-Might-We questions from the two problem statements → Crazy 8s → user flow check against locked 5 screens → paper wireframes.
+Journey-map 慧兰's review-day and 林悦's consultation scenarios → Affinity themes → How-Might-We questions → Crazy 8s → concept selection → user flow validation against the locked 5 screens → paper wireframes.
