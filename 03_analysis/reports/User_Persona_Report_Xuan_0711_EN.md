@@ -58,7 +58,7 @@ The patient is open to digital tools: "If a tool or program like this came out, 
 
 **Representative user story**
 
-"Lao Zhang" (pseudonym) was diagnosed over ten years ago. Having been through an anxious phase, he is now emotionally stable — "I was diagnosed more than ten years ago; that anxious phase is long past." He is completely deaf with blurred vision, but has developed his own way of seeking care: family members assist with communication, AI speech-to-text software is used when necessary, and doctors can also type on a phone to communicate. He has essentially lost his medical records — "every time I see a doctor I just start a new record book" — and accumulated a suitcase full of imaging films; but now "the films are uploaded to the cloud, so I just bring the QR code."
+"Lao Zhou" (pseudonym) was diagnosed over ten years ago. Having been through an anxious phase, he is now emotionally stable — "I was diagnosed more than ten years ago; that anxious phase is long past." He is completely deaf with blurred vision, but has developed his own way of seeking care: family members assist with communication, AI speech-to-text software is used when necessary, and doctors can also type on a phone to communicate. He has essentially lost his medical records — "every time I see a doctor I just start a new record book" — and accumulated a suitcase full of imaging films; but now "the films are uploaded to the cloud, so I just bring the QR code."
 
 **Core needs and pain points**
 

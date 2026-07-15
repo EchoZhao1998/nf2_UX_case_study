@@ -23,7 +23,7 @@ Teaching notes are marked 📎 — delete them from any portfolio-facing export.
 
 ---
 
-## Persona 1 — 陈慧兰 "The Record Keeper" (PRIMARY)
+## Persona 1 — Mother Chan: "The Record Keeper" (PRIMARY)
 
 > "In the consult I still hand over paper. The photos are all there, somewhere — that's the problem."
 
@@ -49,7 +49,7 @@ Teaching notes are marked 📎 — delete them from any portfolio-facing export.
 
 ---
 
-## Persona 2 — 林悦 "The Self-Navigator" (PRIMARY)
+## Persona 2 — Xiao Li "The Self-Navigator" (PRIMARY)
 
 > "I can describe my condition fine. What I can't do is hear which report the doctor is asking me for."
 
@@ -75,7 +75,7 @@ Teaching notes are marked 📎 — delete them from any portfolio-facing export.
 
 ---
 
-## Anti-persona — 老周 "The Veteran" (explicitly NOT designing for)
+## Anti-persona — Lao Zhou "The Veteran" (explicitly NOT designing for)
 
 > "If I need a summary, I'll throw it at an AI myself. Your product is a shell on someone else's model."
 
