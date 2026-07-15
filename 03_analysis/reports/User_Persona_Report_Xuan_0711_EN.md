@@ -26,7 +26,7 @@ The interviews covered different disease stages (<1 year to 10+ years), differen
 
 **Representative user story**
 
-"Xiao Li" (pseudonym), early twenties, sought medical care in March 2026 for declining hearing; a contrast MRI revealed bilateral acoustic neuromas and led to an NF2 diagnosis. After the diagnosis he moved between three hospitals seeking a surgical plan, and a Beijing doctor ultimately recommended a "watch and wait" approach with regular monitoring. In daily life he browses social media, makes video calls, and plays games on his phone — but his hearing problem makes video calls difficult: "I have to turn the player volume all the way up, and my friend has to show their face so I can read their lips clearly enough to communicate smoothly."
+Early twenties, sought care March 2026 for declining hearing; a contrast MRI revealed bilateral acoustic neuromas and an NF2 diagnosis. He moved between three hospitals seeking a surgical plan before a Beijing doctor advised "watch and wait." The diagnosis hit hard — he phoned a friend and cried, feeling "the whole world had collapsed," before booking the appointment. In daily life he browses social media, makes video calls, and games — but hearing loss makes calls hard: "I turn the player volume all the way up, and my friend has to show their face so I can read their lips."
 
 **Core needs and pain points**
 
@@ -58,7 +58,7 @@ The patient is open to digital tools: "If a tool or program like this came out, 
 
 **Representative user story**
 
-"Lao Zhou" (pseudonym) was diagnosed over ten years ago. Having been through an anxious phase, he is now emotionally stable — "I was diagnosed more than ten years ago; that anxious phase is long past." He is completely deaf with blurred vision, but has developed his own way of seeking care: family members assist with communication, AI speech-to-text software is used when necessary, and doctors can also type on a phone to communicate. He has essentially lost his medical records — "every time I see a doctor I just start a new record book" — and accumulated a suitcase full of imaging films; but now "the films are uploaded to the cloud, so I just bring the QR code."
+Diagnosed over ten years ago. Past the anxious phase and now emotionally stable — "I was diagnosed more than ten years ago; that anxious phase is long past." Completely deaf with blurred vision, he's built his own workflow: family assist with communication, AI speech-to-text when needed, doctors type on a phone. He's essentially lost his paper records — "every time I see a doctor I just start a new record book" — and keeps a suitcase of films; but "now the films are uploaded to the cloud, so I just bring the QR code." He's skeptical any reliable therapy arrives within a decade and reads new-drug news as hype to deceive patients or investors.
 
 **Core needs and pain points**
 
@@ -91,7 +91,7 @@ Essentially rejecting. "I probably wouldn't use a tool like this at all. If I ne
 
 "Father Wang" (pseudonym)'s son developed tinnitus in 2015, moved between many hospitals, was diagnosed with NF2 in 2016, and suspended his studies. He successively travelled to multiple hospitals in Beijing and Shanghai, and underwent brain surgery in December 2019. The tracheostomy has remained unclosed since then; from 2017 he lost all vision and hearing, and the family communicates by writing characters on his palm with a finger. He received rehabilitation care locally afterward — "we spent three Spring Festivals in the hospital." Now he is hospitalised every two to three months to manage tracheostomy infections and change tubing — "at least 5–6 hospitalisations a year." The family has bought a suction machine, oxygen machine, and nebuliser, and the parents do rehabilitation with him at home. But he refuses to give up — "his mind is very clear and his will to survive is strong; as long as we are able, we will keep helping him, until we can do no more."
 
-The other interviewee, a mother of a child patient (child aged <18, disease stage 3–5 years), likewise carries the main caregiving responsibility: her husband is in charge of keeping the records, while she mainly takes the child for examinations.
+The other interviewee, a mother of a child patient (child aged <18,), 3+ years post-diagnosis. Semi-annual MRI reviews at Xiangya, plus second-opinion trips, each requiring the entire paper archive to be carried and re-explained from scratch. She's active in patient WeChat groups daily — they are her early-warning system and her anxiety source at once. She photographs records but reverts to paper in consults (the album is too scattered), self-compares MRI reports, and skips the doctor when scans look unchanged. When her child's hearing suddenly dropped, she bought group-recommended drugs from the pharmacy to try. She follows drug news closely and can recall specifics the next day.
 
 **Core needs and pain points**
 
