@@ -10,7 +10,7 @@
 ## Cadence
 
 - **Weekly sync:** 60 min, Sunday evening (fits Echo's semester schedule) — review deliverables, unblock, assign next week.
-- **Async:** WeChat daily; files in this repo / Notion per `collab/Notion_Workspace_Blueprint.md`.
+- **Async:** Feishu daily; files in this repo / Notion per `collab/Notion_Workspace_Blueprint.md`.
 - **Definition of done:** every deliverable saved to its numbered folder + one line in `collab/Reflection_tracker.md`.
 
 ---
@@ -24,7 +24,7 @@
 |---|---|---|---|
 | 1.1 | Kickoff: walk teammates through survey insights + `Empathy_canvas` assets | Echo → all | 30-min walkthrough |
 | 1.2 | **Converge: select 1 primary + 1 secondary persona** (from the 4) with written rationale; then problem statements (1 primary + 2 secondary) via PHV template | All (workshop) | Selection rationale + `3_Case_Study_Skeleton.md` §2 updated |
-| 1.3 | **Hypothesis statements** + **value proposition** (fill PHV template Steps 1–3) | Yiran drafts, Echo refines | Filled PHV canvas |
+| 1.3 | **Hypothesis statements** + **value proposition** (fill PHV template Steps 1–3) | Echo refines | Filled PHV canvas |
 | 1.4 | **Goal statement** (Ideate template: product/action/audience/impact/criteria) — defines measurable success for the prototype | Echo + Yiran | Goal statement |
 | 1.5 | Medical accuracy pass on the 2 selected personas + their journey maps | Shengxuan | Reviewed canvases |
 | 1.6 | Figma project setup: file structure, design tokens, accessibility checklist (WCAG for hearing/vision) | Echo | Figma workspace ready |
@@ -36,7 +36,7 @@
 |---|---|---|---|
 | 2.1 | HMW statements (5) + Crazy Eights workshop (paper/FigJam — no Figma skill needed) | All | HMW list + sketch photos |
 | 2.2 | User flow: Log Event → Timeline → Generate Summary | Echo (2–3 hrs) | Flowchart |
-| 2.3 | Lo-fi wireframes, core flow v2 (~6 screens: onboarding → home/notebook → summary) | Echo (Figma) + Yiran (paper drafts feed in) | Lo-fi set → `04_design/` |
+| 2.3 | Lo-fi wireframes, core flow v2 (~6 screens: onboarding → home/notebook → summary) |Yiran (paper drafts feed in) + Echo (Figma) | Lo-fi set → `04_design/` |
 | 2.4 | Doctor-summary content model: what fields must a 就诊摘要 contain to be clinically usable | Shengxuan | Summary field spec (bilingual) |
 | 2.5 | Accessibility heuristic pass on lo-fi | Yiran | Issue list |
 | 2.6 | Competitor audit refresh (June audit covered PatientsLikeMe/MyChart): NotebookLM interaction pattern, CN 病历夹 apps, 微医/好大夫 remote-visit flow, 泡泡家园 community | Shengxuan (~3 hrs) | 1-page audit notes |
@@ -47,10 +47,10 @@
 | # | Task | Owner | Deliverable |
 |---|---|---|---|
 | 3.1 | Hi-fi design system + Onboarding + Home/notebook screens | Echo (5–8 hrs) | Figma frames |
-| 3.2 | **Mid-pre deck**: background → research evidence (n=38 stats) → problem/persona → lo-fi direction → next steps. Reuse `Empathy_canvas` assets: primary persona, its journey map, empathy map | Yiran leads build, Shengxuan medical slides, Echo reviews + presents | Deck (CN) → `collab/` |
-| 3.2b | CN versions/annotations of the 3–4 canvases used in the deck (persona, journey map, empathy map) | Yiran translates, Echo exports from Figma | CN canvas exports |
+| 3.2 | **Mid-pre deck**: background → research evidence (n=38 stats) → problem/persona → lo-fi direction → next steps. Reuse `Empathy_canvas` assets: primary persona, its journey map, empathy map | Yiran leads build, Shengxuan medical slides, Echo reviews + presents | Deck (CN) → feishu |
+| 3.2b | CN versions/annotations of the 3–4 canvases used in the deck (persona, journey map, empathy map) | Yiran translates, Echo exports from Figma(trim off depends on Yiran capbility) | CN canvas exports |
 | 3.3 | Mid-pre rehearsal (30 min in Sunday sync) | All | Feedback applied |
-| 3.4 | Recruit 5 usability-test participants from Q11 volunteer pool (need lead time!) | Shengxuan | Confirmed participant list |
+| 3.4 | Recruit 5 usability-test participants from Q11 volunteer pool (need lead time!) | Shengxuan | Confirmed participant list(If we can't hire tester, try plan B and C) |
 
 ## Week 4 · Aug 10–16 — Hi-fi complete
 
@@ -80,7 +80,7 @@
 |---|---|---|---|
 | 6.1 | Product roadmap: 病友社区 · 研究前沿 · 健康记录 (per proposal 预期成果 #4) | Shenxuan + Yiran | Roadmap 1-pager |
 | 6.2 | Final defense deck (CN) — full story: problem → evidence → design → test → iterate → roadmap | Yiran leads, all contribute | Deck v1 → `collab/` |
-| 6.3 | Design documentation package (需求分析、设计决策、无障碍原则、测试记录) | All (compile existing docs) | Doc package, CN + EN |
+| 6.3 | Design documentation package (需求分析、设计决策、无障碍原则、测试记录) | All (compile existing docs) | Doc package, CN (CN for PwC, EN files all for Echo and Shengxuan need) |
 | 6.4 | Retro + September defense logistics | All | Rehearsal schedule |
 
 ## September — Final defense (date TBD)

@@ -8,8 +8,7 @@ Purpose: this chat covered planning, empathy-canvas review, scope decisions, and
 |---|---|
 | `01_planning/2_PwC_6Week_Plan.md` | 6-week plan (Jul 20–Aug 30), weekly tables, owners, risks — **source of truth** |
 | `01_planning/2_PwC_6Week_Tracker.xlsx` | Same plan as trackable sheet, 30 tasks, status dropdowns |
-| `01_planning/4_Kickoff_Agenda.md` | 90-min kickoff agenda + decisions log |
-| `01_planning/5_Problem_Statements.md` | 7 refined POVs with evidence + scope mapping, workshop checklist |
+| `01_planning/4_Kickoff_Agenda.md` | 60-min kickoff agenda + decisions log |
 
 ## Decisions made (locked unless team overturns)
 
@@ -29,8 +28,8 @@ Purpose: this chat covered planning, empathy-canvas review, scope decisions, and
 
 ## Immediate next steps (Week 1, Jul 20–26)
 
-1. Hold kickoff (agenda ready) → lock persona decision formally
-2. Define workshop: ratify problem statements → write hypothesis statements + value prop (fill PHV) + goal statement (Ideate template)
+1. Hold kickoff (agenda ready) → lock persona decision formally - Done✅
+2. Define workshop: ratify problem statements✅ → write hypothesis statements + value prop (fill PHV) + goal statement (Ideate template)
 3. Shengxuan: medical accuracy pass (facts, care-journey realism, terminology, feasibility flags — output = comment list, 2–3 hrs) + save-the-date to volunteer pool
 4. Echo: Figma setup + confirm mid-pre date with PwC
 
@@ -42,18 +41,3 @@ Purpose: this chat covered planning, empathy-canvas review, scope decisions, and
 - Chat D "Google UX course": Module 3 guidance alongside project work
 
 ---
-
-## 📋 Pastable prompt for a new chat
-
-```
-Context: I'm Echo, team lead of CareLink Lab — 3-person team (me: data science + only Figma user; Yiran 孙亦然: architecture/accessibility; Shengxuan 张盛璇: clinical/pediatrics). Our project MediPort (NF2 patient-led record & communication tool) was selected by PwC 包容未来实验室: 6 weeks Jul 20–Aug 30 2026, mid-presentation ~Aug 7 (TBC), final defense September. This doubles as my Google UX certificate portfolio piece (I've finished Module 2, starting Module 3). My semester starts ~Jul 27 → I have 5–8 hrs/week; teammates carry non-Figma work.
-
-You are my senior PM + UX design partner. Read these first:
-- NF2_case/collab/Session_Handover_0719.md  (decisions + state — trust it)
-- NF2_case/01_planning/2_PwC_6Week_Plan.md  (the plan)
-- NF2_case/01_planning/5_Problem_Statements.md  (ratified POVs)
-
-Locked decisions (don't reopen unless I ask): scope = ~6 hi-fi screens (onboarding → notebook home → generate summary → summary view) + 2 static concept cards (community, remote visit); primary persona Xiao Li, secondary Mother Chan + Father Wang; no solutions in problem statements; CN for PwC deliverables, EN for portfolio.
-
-Today I want to work on: [TOPIC]
-```
