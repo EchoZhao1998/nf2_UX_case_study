@@ -13,7 +13,7 @@
 | # | Underlying need | POVs feeding it | Lands in |
 |---|---|---|---|
 | A | **The 5-minute consult can't hold years of history** — compression, omission, decision pressure | Echo: 3-province newly-diagnosed; Echo: Lao Zhou decade-compression; SX: no one to help sort materials pre-visit; Yiran: Mother Chan follow-up | Core: Generate Summary + Summary view |
-| B | **Records are fragile and scattered** — decaying films, blurred phone photos, piles dropped by tremoring hands, "family reset" | Echo: Chan Mom 10-yr films; SX: tremors + papery materials; SX: emergency statement file for school; Yiran: Old Zhou reliable storage | Core: Upload + notebook Home + timeline |
+| B | **Records are fragile, scattered — and unrecoverable once lost** — decaying films, blurred phone photos, piles dropped by tremoring hands, disaster loss, "family reset" | Echo: Chan Mom 10-yr films; SX: tremors + papery materials; SX: emergency statement file for school; SX: flood-ruined paper records → re-copying from HSPs across provinces *(added 7/21)*; Yiran: Old Zhou reliable storage | Core: Upload + notebook Home + timeline |
 | C | **Consult communication doesn't survive hearing loss** — masks, noise, no relay person wanted | Echo: masked-consult (design constraint: text-first); 0712 legacy bet "the record answers the doctor" | Core: Summary view *as the communication artifact*; also remote-visit card |
 | D | **Trustworthy, readable knowledge at vulnerable moments** — info is either too technical or too frightening | Echo: anxious-patient; SX: systematic recognition frame; SX: simplified research literature; SX: general-AI opinions ⚠️ | Mostly roadmap; ⚠️ liability lines below |
 | E | **Isolation** — sign language, ex-serviceman's contacts overwhelmed, "feel not alone" | Echo: sign-language POV; SX: comrades cut-off; SX: same-symptom cases | Concept card: Community |
@@ -43,6 +43,8 @@
 
 📎 *S2's main job in the 6-screen prototype is as a **constraint** (radical simplicity, accessibility profile at onboarding) + the remote-visit concept card — not new screens.*
 
+📎 *Routing decision (7/21): SX's ex-serviceman/comrades POV is **not merged into S2** — different underlying need (identity loss & isolation, cluster E), and one statement = one need. It routes to: (a) the **Community concept card** as its strongest evidence — #14's social world was replaced by the disease, and his stated group pain is "info flows too fast, chaotic, hard to search," so the card's framing is restoring connection, not another group feed; (b) **Father Wang's persona bio** — ex-serviceman background + sacrifice texture (transcript #14: deleted comrade groups but keeps every patient/doctor contact; three Spring Festivals in hospital; "until we no longer can"). Note: "reluctantly & regretfully" is interpretation, not #14's words — keep observation/interpretation separated in the case study.*
+
 ---
 
 ## Step 2 · Hypothesis options — DIVERGE here, then pick 1–2 per problem
@@ -62,6 +64,7 @@
 
 - **H2a · Camera-first capture.** If capturing a record is as fast as taking a photo — auto-enhanced, auto-dated, backed up — then ten years of films stop decaying in a phone gallery and nothing forces a family "reset".
   如果采集病历像拍照一样快——自动增强、自动标注日期、云端备份——那么十年的胶片不再在相册里慢慢损毁，家庭也不会被迫"归零"。
+  *(Strengthened by SX's 7/21 flood POV: paper as the only copy fails catastrophically, and reconstruction means trips to several hospitals across provinces — the "backed up" clause is the differentiator, not a nice-to-have.)*
 - **H2b · Auto-compare.** If each new MRI is automatically placed beside the last one on the timeline, then "how did it change?" takes one glance instead of an evening of searching.
   如果每次新的 MRI 自动与上一次并列呈现在时间线上，那么"变化如何"只需一眼，而不是一晚上的翻找。
 - **H2c · Emergency card.** If a certified diagnosis + key-facts card is shareable in one tap, then school or ER staff can act before any parent arrives. *(also serves SX's school-emergency POV)*
@@ -107,6 +110,12 @@
 1. **Brigatinib dosing guidance** — the product must never suggest increase/keep/decrease. Reframe as: *record the current regimen + prompt "bring this question to your clinician" (fits Summary view)*.
 2. **General-AI medical opinions replacing visits** — anti-goal. MediPort prepares for consults; it does not substitute them.
 3. **"What does this symptom mean"** — record-and-bring framing only, never interpretation. (Handover constraint #6.)
+
+---
+
+## POV log — post-workshop additions
+
+- **2026-07-21, Shengxuan (→ cluster B):** "Chan Mom is a mother of an NF2 patient who needs to commit a lot of spare time to copy history records from several HSPs across provinces, because their house suffered from flood and those old papery records were just ruined."
 
 ---
 
