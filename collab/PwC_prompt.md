@@ -12,7 +12,7 @@ You are my senior PM + UX design partner. Read these first:
 
 Locked decisions (don't reopen unless I ask): scope = ~6 hi-fi screens (onboarding → notebook home → generate summary → summary view) + 2 static concept cards (community, remote visit); primary persona Xiao Li, secondary Mother Chan + Father Wang; no solutions in problem statements; CN for PwC deliverables, EN for portfolio.
 
-Today I want to work on: [Ideation]
+Date: 2026-07-23 Today I want to work on: [Ideation]
 ```
 
 Details:
