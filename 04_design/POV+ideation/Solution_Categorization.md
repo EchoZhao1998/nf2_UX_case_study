@@ -62,8 +62,13 @@
 
 **Recommendation:** skip full HMW ×5 + Crazy 8s; run **one 30-min targeted Crazy 8s** on gaps 1–2 only (Echo sketches, teammates vote async). Then goal statement → user flow → lo-fi.
 
-## Next actions
+## Next actions — Round 2 schedule (locked 7/23; finish before semester starts Jul 27)
 
-- [ ] Team: 15-min async dot-vote to confirm bucket placements (esp. Bucket 2 stretch items)
-- [ ] Shengxuan: confirm Bucket 5 reframes in accuracy pass (task 1.5)
-- [ ] Echo: targeted Crazy 8s on gaps 1–2 → goal statement (Google UX Ideate template) → user flow
+*Rationale: round 2 is sketch-heavy and Figma-free = Echo's work, so it must land in the last free-capacity window. Dependency chain: question list → Crazy 8s → role-play. If the weekend slips, delay the role-play, never the Crazy 8s — Week 2 user flows and lo-fi (critical path to Aug 7 mid-pre) depend on these sketches.*
+
+- [ ] **Thu 7/23** — Echo posts async dot-vote on bucket placements (esp. Bucket 2 stretch items); closes Sat 7/25
+- [ ] **Fri 7/24** — Echo sends brief to Shengxuan: 8–10 real doctor consult questions, grounded in `02_research/` transcripts + survey open-ends, clinical-judgment additions welcome (tag data vs. expertise). Deliver Sat evening. Design requirement for gap 2: *each answerable in one tap*
+- [ ] **Sat 7/25** — Echo: Crazy 8s on gap 1 (onboarding accessibility profile — no dependency) + goal statement, Google UX Ideate template (30 min)
+- [ ] **Sun 7/26** — Echo: Crazy 8s on gap 2 (Summary tap-to-answer), sketched against Shengxuan's question list
+- [ ] **Mon–Tue 7/27–28** — 15-min role-play: Shengxuan plays clinician using the question list, Echo answers only by pointing at the sketch. Wherever speech is needed, the sketch failed
+- [ ] **Week 2 in parallel** — Shengxuan: confirm Bucket 5 reframes in accuracy pass (task 1.5)
