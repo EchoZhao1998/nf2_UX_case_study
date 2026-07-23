@@ -12,13 +12,13 @@ You are my senior PM + UX design partner. Read these first:
 
 Locked decisions (don't reopen unless I ask): scope = ~6 hi-fi screens (onboarding → notebook home → generate summary → summary view) + 2 static concept cards (community, remote visit); primary persona Xiao Li, secondary Mother Chan + Father Wang; no solutions in problem statements; CN for PwC deliverables, EN for portfolio.
 
-Today I want to work on: [Hyphesis + Value propositions]
+Today I want to work on: [Ideation]
 ```
 
-I am stuck in:
+Details:
 
-1. Now we finish problem statement. it's diffirent with the previews work gave me. we brainstorm another brilliant ideas, which can be regarded as oppotunity, instead of design our via Figma. you can refer `04_design/PHV+HMW/POV.png`.
+My supervisor who is a UX researcher suggested me that can drop off hypothesis and value propositions these two steps for this small case. Coming up solutions and categorise them. We finished first round ideation. the canva is `NF2_case/04_design/POV+ideation/Solution1.png`. 
 
-2. Next we are stepping into hypothesis stage. My question is that we should according to the problem we came about individually during POV, or should synthesize our ideas first, extract common ones than prompt hypothesis. As I think, if synthesis, our mind would be constrained. correct me if I am wrong.
+Please judge them and guide me to the next step.
 
-3. Yiran's work need to revise slightly. Since according to her performance these days, I notice she has no critical thinking and lacks empathy capbility. I already revise in `01_planning/2_PwC_6Week_Plan.md`. You can go through it.
+Moreover, you can adjust the `NF2_case/01_planning/5_Problem_Statements.md` accrodingly. base on current situation. 
