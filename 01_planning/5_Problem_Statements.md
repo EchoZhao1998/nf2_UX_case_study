@@ -1,6 +1,8 @@
-# 5 · Problem Statements → Hypotheses → Value Propositions (Define, Week 1)
+# 5 · Problem Statements (Define, Week 1)
 
-**Status: DRAFT — nothing ratified yet.** (Board thumbs-ups = encouragement, not votes.) Echo + Shengxuan: work through Steps 1–3 in FigJam when free; mark ✅ next to what you ratify, ✍️ next to what you rewrite. Each statement is one sticky — copy-paste directly.
+**Status: RATIFIED ✅ (kickoff, Week 1).** P1 Xiao Li primary; S1 Mother Chan + S2 Father Wang secondary.
+
+**Process change (2026-07-23, supervisor decision):** hypothesis statements (Step 2) and value propositions (Step 3) are **dropped** for this case — too heavyweight for a 6-week scope. Pipeline is now: problem statements → ideation → **categorize solutions** → prioritize → goal statement → flows. Steps 2–3 below are kept as an **archive** because they seeded round-1 ideation (see `04_design/POV+ideation/Solution_Categorization.md` for where each idea landed).
 
 **Sources:** `04_design/PHV+HMW/POV.png` (0719 workshop, all three members) + reusable bets from `03_analysis/reports/Problem_Statements_0712.md` (old personas 陈慧兰/林悦 — the *mechanisms* survive, the anchors are re-pointed at Xiao Li per kickoff decision).
 
@@ -47,9 +49,9 @@
 
 ---
 
-## Step 2 · Hypothesis options — DIVERGE here, then pick 1–2 per problem
+## 🗄️ ARCHIVE · Step 2 — Hypothesis options (dropped 7/23, kept as ideation seeds)
 
-*Deliberately competing bets per problem. In FigJam: dot-vote, or write H1d/H2d/… if these spark better ones. Format: If [mechanism], then [outcome].*
+*Not ratified, not part of the case-study narrative. Each H-item maps to round-1 stickies — see `Solution_Categorization.md`.*
 
 ### For P1 (Xiao Li — the consult)
 
@@ -81,7 +83,7 @@
 
 ---
 
-## Step 3 · Value propositions (draft after hypotheses are picked)
+## 🗄️ ARCHIVE · Step 3 — Value propositions (dropped 7/23; one-liners may still serve mid-pre deck copy)
 
 **Product VP (draft):** MediPort turns a scattered, decaying pile of films and reports into a living record that can *speak for the patient* — organised in minutes, summarised in one page, trusted because every claim links to its source.
 **产品价值主张（草案）：** MediPort 把散落、易损的胶片与报告变成一份"能替患者说话"的活病历——几分钟归档，一页纸摘要，每条结论都可溯源，因此可被信任。
@@ -119,4 +121,4 @@
 
 ---
 
-*Next after ratification: fill the PHV canvas from the picked statements → goal statement (task 1.4) → HMW ×5 + Crazy 8s (task 2.1, full divergence).*
+*Next (updated 7/23): round-1 ideation done (`Solution1.png`) → categorization done (`Solution_Categorization.md`) → team dot-vote on buckets → targeted Crazy 8s on the 2 gap screens → goal statement (task 1.4) → user flows. PHV canvas and full HMW ×5 are cancelled.*
