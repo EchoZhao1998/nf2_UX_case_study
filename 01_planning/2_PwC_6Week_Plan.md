@@ -34,13 +34,16 @@
 
 | # | Task | Owner | Deliverable |
 |---|---|---|---|
-| 2.1 | HMW statements (5) + Crazy Eights workshop (paper/FigJam — no Figma skill needed) | All | HMW list + sketch photos |
-| 2.2 | User flow: Log Event → Timeline → Generate Summary | Echo (2–3 hrs) | Flowchart |
-| 2.3 | Lo-fi wireframes, core flow v2 (~6 screens: onboarding → home/notebook → summary) |Yiran (paper drafts feed in) + Echo (Figma) | Lo-fi set → `04_design/` |
+| 2.1 | ~~HMW ×5 + full Crazy Eights~~ → superseded 7/23: targeted Crazy 8s on 2 gap screens (done 7/25–26) + role-play test 7/27–28 | Echo + Shengxuan | Sketches + role-play findings |
+| 2.2 | User flow (core path only): Onboarding → Home → Upload/Log Event → Timeline → Generate Summary → Summary view. Shengxuan drafts flow logic (clinical order, fold in role-play findings); Echo cleans up in Figma (≤3 hrs). **Flow freeze Wed 7/29** | Shengxuan (draft) + Echo (Figma) | Flowchart |
+| 2.3 | Lo-fi wireframes, core flow v2 (~6 screens), Thu–Sat. Every screen maps to a node in the frozen flow; each screen cites ≥1 insight from 2.6 audit | Echo (Figma), sketches feed in | Lo-fi set → `04_design/` |
 | 2.4 | Doctor-summary content model: what fields must a 就诊摘要 contain to be clinically usable | Shengxuan | Summary field spec (bilingual) |
-| 2.5 | Accessibility heuristic pass on lo-fi | Yiran | Issue list |
-| 2.6 | Competitor audit refresh (June audit covered PatientsLikeMe/MyChart): NotebookLM interaction pattern, CN 病历夹 apps, 微医/好大夫 remote-visit flow, 泡泡家园 community | Shengxuan (~3 hrs) | 1-page audit notes |
+| 2.5 | Accessibility heuristic pass on lo-fi (Sun sync) — **gate: lo-fi not "done" until issue list triaged** | Yiran | Issue list |
+| 2.6 | Accessibility benchmark / competitor audit refresh (June audit covered PatientsLikeMe/MyChart): NotebookLM interaction pattern, CN 病历夹 apps, 微医/好大夫 remote-visit flow, 泡泡家园 community. Extract 3–5 interaction patterns; present 10 min at Wed flow-freeze | Yiran (~3 hrs) *(reassigned from Shengxuan 7/26)* | 1-page audit notes + patterns |
 | 2.7 | Lo-fi concept cards: Community + Remote visit (1 static screen each) | Yiran | 2 concept cards |
+| 2.8 | IA accessibility critique: Yiran reviews `04_design/MediPort_IA.png` async (5-min walkthrough from Echo), flags a11y issues incl. node order (Accessibility before Role?) | Yiran | Margin comments |
+
+> **Scope guard (2.2/2.3):** MediPort_IA.png shows full-product IA incl. Peer Community, Visit Assistant, Knowledge — these stay as Home teasers ending in "concept card" terminal nodes. User flow and lo-fi cover the core path only.
 
 ## Week 3 · Aug 3–9 — Hi-fi starts + **Mid-presentation (Fri Aug 7)**
 
