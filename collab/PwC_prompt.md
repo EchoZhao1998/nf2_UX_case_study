@@ -12,13 +12,15 @@ You are my senior PM + UX design partner. Read these first:
 
 Locked decisions (don't reopen unless I ask): scope = ~6 hi-fi screens (onboarding → notebook home → generate summary → summary view) + 2 static concept cards (community, remote visit); primary persona Xiao Li, secondary Mother Chan + Father Wang; no solutions in problem statements; CN for PwC deliverables, EN for portfolio.
 
-Date: 2026-07-23 Today I want to work on: [Ideation]
+Date: 2026-07-23 Today I want to work on: [refine IA and mian user flow and have a plan of how to start lo-fi]
 ```
 
 Details:
 
-My supervisor who is a UX researcher suggested me that can drop off hypothesis and value propositions these two steps for this small case. Coming up solutions and categorise them. We finished first round ideation. the canva is `NF2_case/04_design/POV+ideation/Solution1.png`. 
+The current IA and user flow shows in `04_design/IA&UF.png` . I am about to step into next step. I have some concerns:
 
-Please judge them and guide me to the next step.
+1. I'd like to ensure all the language use in user flow is correct. e.g. for the openning accessibility setting guidance, you suggest use "accessibility setting" instead of "how can I help you?", which I original intentionally wirte as it for involing humanity. You can give more comprehensive adivse, base on the exellent case in the real world.
 
-Moreover, you can adjust the `NF2_case/01_planning/5_Problem_Statements.md` accrodingly. base on current situation. 
+2. I need to turn it to lo-fi. however, I am not clear that should I finalize the HOME layout first or what?
+
+3. like many app opening for the first time. I want to make a seriese short-sentence introduction of the value propositions(the main functions, in this case, likely to be: recording and organising, summarying, comminity(seeking peer support), telemedicine, Library, note you can extract more solid ones)
