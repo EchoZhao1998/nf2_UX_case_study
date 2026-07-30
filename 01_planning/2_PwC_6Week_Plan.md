@@ -1,6 +1,6 @@
 # 📅 PwC "包容未来实验室" 6-Week Plan — MediPort
 
-**Program window:** Jul 20 – Aug 30, 2026 · **Mid-presentation:** placeholder **Fri Aug 7** (end of Week 3, confirm with PwC) · **Final defense:** September (date TBD)
+**Program window:** Jul 20 – Aug 30, 2026 · **Mid-presentation:** downgraded 7/29 to an **optional progress update with group mentor** (~Fri Aug 7, informal) · **Final defense:** September (date TBD)
 **Team (CareLink Lab):** Echo 赵婉婷 (lead / product design / research) · Yiran 孙亦然 (product design / accessibility review) · Shengxuan 张盛璇 (medical content / user research)
 
 > **Reality check baked into this plan:** Empathize is ✅ done (survey n=38, interviews). Echo's semester starts ~Jul 27 → her capacity drops to **5–8 hrs/wk from Week 2**. So Week 1 front-loads Echo's heavy Figma setup, and Weeks 2–6 shift research synthesis, content, and testing logistics to Yiran & Shengxuan. Echo owns only the **core hi-fi flow (v2, ~6 screens)**: Onboarding (diagnosis-year + accessibility profile) → notebook-style Home (explicit upload, timeline, function teasers) → Generate Summary → Summary view. **Community & Remote visit = 1 static concept screen each** (Yiran drafts lo-fi, Echo polishes once) — reachable from Home teasers, framed as roadmap, matching what the PwC proposal promised (prototype = 上传/整理/时间线/摘要; 社区等 = 路线图).
@@ -38,37 +38,37 @@
 | 2.2 | User flow (core path only): Onboarding → Home → Upload/Log Event → Timeline → Generate Summary → Summary view. Shengxuan drafts flow logic (clinical order, fold in role-play findings); Echo cleans up in Figma (≤3 hrs). **Flow freeze Wed 7/29** | Shengxuan (draft) + Echo (Figma) | Flowchart |
 | 2.3 | Lo-fi wireframes, core flow v2 (~6 screens), Thu–Sat. Every screen maps to a node in the frozen flow; each screen cites ≥1 insight from 2.6 audit | Echo (Figma), sketches feed in | Lo-fi set → `04_design/` |
 | 2.4 | Doctor-summary content model: what fields must a 就诊摘要 contain to be clinically usable | Shengxuan | Summary field spec (bilingual) |
-| 2.5 | Accessibility heuristic pass on lo-fi (Sun sync) — **gate: lo-fi not "done" until issue list triaged** | Yiran | Issue list |
-| 2.6 | Accessibility benchmark / competitor audit refresh (June audit covered PatientsLikeMe/MyChart): NotebookLM interaction pattern, CN 病历夹 apps, 微医/好大夫 remote-visit flow, 泡泡家园 community. Extract 3–5 interaction patterns; present 10 min at Wed flow-freeze | Yiran (~3 hrs) *(reassigned from Shengxuan 7/26)* | 1-page audit notes + patterns |
-| 2.7 | Lo-fi concept cards: Community + Remote visit (1 static screen each) | Yiran | 2 concept cards |
-| 2.8 | IA accessibility critique: Yiran reviews `04_design/MediPort_IA.png` async (5-min walkthrough from Echo), flags a11y issues incl. node order (Accessibility before Role?) | Yiran | Margin comments |
+| 2.5 | Accessibility heuristic pass on lo-fi (Sun sync) — **gate: lo-fi not "done" until issue list triaged**. Checklist-driven, async — no Figma authoring needed. *Fallback if Yiran unavailable: Echo runs WCAG checklist herself (30 min) + log QA gap* | Yiran | Issue list |
+| 2.6 | ✅ Done 7/28 (Yiran). Outcome: low new signal — patterns surfaced were already covered by 7/23 solution categorization. No follow-up actions; notes archived for appendix | Yiran | 1-page audit notes (archived) |
+| 2.7 | ~~Lo-fi concept cards (Yiran)~~ → moved 7/29 to Echo, deferred to Week 4 polish slot (task 4.1). Cards built directly from `Solution_Categorization.md` content, ~1.5 h each; first in cut order if capacity is tight | Echo (W4) | 2 concept cards |
+| 2.8 | IA accessibility critique: Yiran reviews `04_design/MediPort_IA.png` async (5-min walkthrough from Echo), flags a11y issues incl. node order (Accessibility before Role?). *Fallback: fold into Echo's 2.5 self-check* | Yiran | Margin comments |
 
 > **Scope guard (2.2/2.3):** MediPort_IA.png shows full-product IA incl. Peer Community, Visit Assistant, Knowledge — these stay as Home teasers ending in "concept card" terminal nodes. User flow and lo-fi cover the core path only.
 
-## Week 3 · Aug 3–9 — Hi-fi starts + **Mid-presentation (Fri Aug 7)**
+## Week 3 · Aug 3–9 — Hi-fi starts + optional mentor update
 
 | # | Task | Owner | Deliverable |
 |---|---|---|---|
 | 3.1 | Hi-fi design system + Onboarding + Home/notebook screens | Echo (5–8 hrs) | Figma frames |
-| 3.2 | **Mid-pre deck**: background → research evidence (n=38 stats) → problem/persona → lo-fi direction → next steps. Reuse `Empathy_canvas` assets: primary persona, its journey map, empathy map | Yiran leads build, Shengxuan medical slides, Echo reviews + presents | Deck (CN) → feishu |
-| 3.2b | CN versions/annotations of the 3–4 canvases used in the deck (persona, journey map, empathy map) | Yiran translates, Echo exports from Figma(trim off depends on Yiran capbility) | CN canvas exports |
-| 3.3 | Mid-pre rehearsal (30 min in Sunday sync) | All | Feedback applied |
+| 3.2 | **Mentor progress update (optional, informal — downgraded 7/29 from formal mid-pre)**: short walkthrough (≤8 slides or FigJam board) — progress, lo-fi direction, next steps. Assembled from existing assets, ~2 h; no formal CN deck | Echo assembles + presents, Shengxuan sanity-checks medical claims | Update walkthrough |
+| 3.2b | ~~CN canvas translations for mid-pre~~ → deferred to Week 6 (only needed for PwC-facing final materials; folds into 6.3) | Yiran (W6) | — |
+| 3.3 | ~~Mid-pre rehearsal~~ → cut; 10-min preview in Sunday sync suffices | — | — |
 | 3.4 | Recruit 5 usability-test participants from Q11 volunteer pool (need lead time!) | Shengxuan | Confirmed participant list(If we can't hire tester, try plan B and C) |
 
 ## Week 4 · Aug 10–16 — Hi-fi complete
 
 | # | Task | Owner | Deliverable |
 |---|---|---|---|
-| 4.1 | Remaining hi-fi screens (Generate Summary, Summary view) + one polish pass on 2 concept cards + clickable prototype | Echo | Figma prototype link |
+| 4.1 | Remaining hi-fi screens (Generate Summary, Summary view) + **build 2 static concept cards** (moved from 2.7, ~1.5 h each — first in cut order) + clickable prototype | Echo | Figma prototype link |
 | 4.2 | Real medical content populated into screens (no lorem ipsum — real NF2 timeline data) | Shengxuan | Content in Figma (Echo places) |
-| 4.3 | Accessibility review of hi-fi (contrast, text size, non-audio cues) | Yiran | Review report |
-| 4.4 | Usability test plan + task script (5 tasks, accessible formats: text-based for HoH participants) | Yiran drafts, Echo approves | Test script |
+| 4.3 | Accessibility review of hi-fi (contrast, text size, non-audio cues) — checklist-driven, no Figma authoring. *Fallback: Echo self-check + log QA gap* | Yiran | Review report |
+| 4.4 | Usability test plan + task script (5 tasks, accessible formats: text-based for HoH participants) — template-driven. *Fallback: Shengxuan drafts* | Yiran drafts, Echo approves | Test script |
 
 ## Week 5 · Aug 17–23 — Usability testing + iteration
 
 | # | Task | Owner | Deliverable |
 |---|---|---|---|
-| 5.1 | Run 5 moderated tests (text/voice per participant's accessibility needs) | Shengxuan moderates, Yiran notes | Notes per participant |
+| 5.1 | Run 5 moderated tests (text/voice per participant's accessibility needs) | Shengxuan moderates, Yiran notes *(confirm session availability in advance; backup: record + Echo notes)* | Notes per participant |
 | 5.2 | Synthesize findings → prioritized fix list (P0/P1/P2) | Yiran + Echo | Findings report |
 | 5.3 | Iterate P0 fixes in prototype | Echo | Updated prototype + before/after shots |
 
@@ -82,7 +82,7 @@
 | # | Task | Owner | Deliverable |
 |---|---|---|---|
 | 6.1 | Product roadmap: 病友社区 · 研究前沿 · 健康记录 (per proposal 预期成果 #4) | Shenxuan + Yiran | Roadmap 1-pager |
-| 6.2 | Final defense deck (CN) — full story: problem → evidence → design → test → iterate → roadmap | Yiran leads, all contribute | Deck v1 → `collab/` |
+| 6.2 | Final defense deck (CN) — full story: problem → evidence → design → test → iterate → roadmap. **Yiran's primary ownership** — Echo hands her a slide-by-slide skeleton; deck assembly needs no ideation context. Includes CN canvas translations deferred from 3.2b | Yiran leads, all contribute | Deck v1 → `collab/` |
 | 6.3 | Design documentation package (需求分析、设计决策、无障碍原则、测试记录) | All (compile existing docs) | Doc package, CN (CN for PwC, EN files all for Echo and Shengxuan need) |
 | 6.4 | Retro + September defense logistics | All | Rehearsal schedule |
 
@@ -99,7 +99,8 @@ Two rehearsals (one accessibility dry-run: captions/scripts ready), deck v2 poli
 | Echo's semester load spikes → Figma bottleneck | Core locked at ~6 hi-fi screens + 2 static concept cards; Yiran preps everything possible outside Figma; cut order if needed: concept-card polish → onboarding second screen → screen polish; never drop testing |
 | Scope creep: community/remote visit become interactive | Home teasers link to static cards only; any interactivity request → roadmap slide, not prototype |
 | Usability participants drop out | Recruit 7, need 5; Week 3 recruitment gives 2-week buffer |
-| Mid-pre date differs from placeholder | Deck content (research + lo-fi) is ready by Aug 2 regardless; only rehearsal shifts |
+| Mid-pre date differs from placeholder | Downgraded to optional mentor update (7/29); content ready by Aug 2 regardless |
+| Yiran limited availability (job interviews; missed ideation sessions) | Role converted 7/29 to deliverable-based execution with review gates: a11y checklists (2.5/2.8/4.3), test script (4.4), test notes (5.1), final deck lead (6.2). Every task has a named fallback; Echo QA-checks outputs. Get availability commitments in writing at Sunday sync |
 | Bilingual deliverable overhead | Work in CN for PwC decks, EN for portfolio docs; translate mid-pre canvases in Week 3 (task 3.2b), everything else once at Week 6 |
 | 4 personas pull scope in 4 directions | Lock 1 primary + 1 secondary in Week 1 (task 1.2) before any wireframing; other 2 move to appendix/roadmap evidence |
 
