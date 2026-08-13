@@ -1,0 +1,45 @@
+\usepackage{hyperref}
+% header.tex - LaTeX preamble added to the pandoc document.
+% Loaded with pandoc's  -H  flag. Edit here to change the look.
+
+\usepackage{fontspec}                 % XeLaTeX font handling (Unicode-safe)
+\usepackage[a4paper,margin=2.5cm]{geometry}
+
+% --- brand colours ---------------------------------------------------
+\usepackage{xcolor}
+\definecolor{woof}{HTML}{0F766E}      % Queens orange - heading accent
+\definecolor{woofdark}{HTML}{1F2933}  % near-black - subheadings & text accents
+
+% --- figures ---------------------------------------------------------
+\usepackage{graphicx}
+\setkeys{Gin}{width=\linewidth,keepaspectratio}   % images never overflow margins
+\usepackage{float}                                % enables [H] "place here"
+
+% --- heading style (Lora font, coloured, no auto numbers) -----------
+\usepackage{sectsty}
+\setmainfont{Lora}
+\sectionfont{\color{woof}\fontspec{Lora}\bfseries\Large}
+\subsectionfont{\color{woofdark}\fontspec{Lora}\bfseries\large}
+\setcounter{secnumdepth}{0}            % headings already carry their own numbers
+\setcounter{tocdepth}{2}               % TOC shows sections + subsections
+
+% --- running header with page number ---------------------------------
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\color{woofdark} MediPort --- EIHUB Challenge 2026 Idea Proposal}
+\fancyhead[R]{\footnotesize\color{woofdark}\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+
+% --- paragraph spacing (block style, no first-line indent) -----------
+\setlength{\parskip}{0.5em}
+\setlength{\parindent}{0pt}
+
+% --- map a few Unicode symbols so they always render -----------------
+\usepackage{newunicodechar}
+\newunicodechar{→}{\ensuremath{\rightarrow}}
+\newunicodechar{−}{\ensuremath{-}}
+\newunicodechar{×}{\ensuremath{\times}}
+
+% --- coloured hyperlinks (hyperref is already loaded by pandoc) -------
+\hypersetup{colorlinks=true,linkcolor=woofdark,urlcolor=woof,citecolor=woofdark}
